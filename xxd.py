@@ -25,7 +25,7 @@ def xxd(file_path):
 		step=('%07x'%(s*16))
 		print('{0}: {1:<39} {2}'.format(step,' '.join(he2),''.join(ch)))
 		s=s+1
-if _name_ =='_main_':
+if __name_ =='_main_':
 	if not os.path.exists(sys.argv[1]):
 		prrint('your Enter is wrong')
 		sys.exit(1)
